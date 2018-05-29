@@ -1,10 +1,10 @@
-class Tumpukan
+class Stacking
 {
 	private int Max_Stack;
 	private String tumpukan[];
 	private int top=-1;
 	
-	public Tumpukan (int s)
+	public Stacking (int s)
 		{
 		Max_Stack = s;
 		tumpukan = new String[Max_Stack];
@@ -43,7 +43,7 @@ class Tumpukan
 }		
 
 
-class tugasstack01
+class Stack_utama
 {
     public static void main(String [] args) 
     {
